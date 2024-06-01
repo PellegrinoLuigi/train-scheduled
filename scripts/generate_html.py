@@ -14,7 +14,7 @@ def generate_html():
         rows += "</tr>"
 
     # Legge il contenuto del file HTML esistente
-    with open('index.html', 'r') as file:
+    with open('docs/index.html', 'r') as file:
         html_content = file.read()
 
     # Sostituisce il segnaposto {{rows}} con le righe della tabella generate
